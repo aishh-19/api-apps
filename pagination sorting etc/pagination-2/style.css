@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    }
+    .card{
+    border: 2px solid black;
+    text-align: center;
+    }
+    .buttons{
+        margin-top:  20px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
