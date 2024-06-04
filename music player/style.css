@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Sans", sans-serif;
+}
+.main{
+max-width: 250px;
+margin: auto;
+/* border: 1px solid black; */
+border-radius: 10px;
+align-items: center;
+text-align: center;
+margin-top: 100px;
+box-shadow: 1px 1px 10px -1px black;
+background-color: rgb(247 247 247);
+
+}
+
+.head{
+    padding: 15px;
+}
+.head .artist {
+    color: rgb(174, 168, 168);
+}
+.buttons{
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 15px;
+}
+
+.play{
+    padding: 7px;
+    border-radius: 40%;
+    border: none;
+    background-color: white;
+
+}
+.prev{
+    padding: 5px;
+    border-radius: 40%;
+    border: none;
+    background-color: white;
+
+}
+.next{
+    padding: 5px;
+    border-radius: 40%;
+    border: none;
+    background-color: white;
+
+}
+.play:hover{
+color: white;
+background-color: black;
+}
+.prev:hover{
+color: white;
+background-color: black;
+}
+.next:hover{
+color: white;
+background-color: black;
+}
+.song-img{
+    width: 200px;
+    height: 200px;
+border-radius: 50%;
+box-shadow: 1px 1px 10px -1px black;
+
+
+}
+.anime {
+    animation: rotation-wheel 3s linear  infinite ;
+
+}
+@keyframes rotation-wheel{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
